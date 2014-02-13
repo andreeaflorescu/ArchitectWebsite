@@ -1,0 +1,47 @@
+body {
+	background:url('p.png') repeat;
+	margin:1px;
+}
+
+a {
+	text-transform: none;
+	text-decoration: none;
+	color: black;
+}
+
+#container {
+	width:70%;
+	height:100%;
+	background:white;
+	margin:0 auto;
+}
+
+#logo {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 60px;
+	font-weight: 200;
+	padding-top: 30px;
+	margin-left: 2%;
+}
+
+#menu {
+	margin-left: 2%;
+}
+
+#menu div {
+	display: inline-block;
+	width: 20%;
+	border-top: solid 1px;
+	margin-right: 4%;
+	min-height: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+#menu div:hover, #menu div:active {
+	border-top: solid 2px;
+}
+
+#menu div.active {
+	border-top: solid 2px;
+}
